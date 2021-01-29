@@ -28,28 +28,25 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`ems hello [FILE]`](#ems-hello-file)
+* [`ems generate [FILE]`](#ems-generate-file)
 * [`ems help [COMMAND]`](#ems-help-command)
+* [`ems init [NAME]`](#ems-init-name)
 
-## `ems hello [FILE]`
+## `ems generate [FILE]`
 
 describe the command here
 
 ```
 USAGE
-  $ ems hello [FILE]
+  $ ems generate [FILE]
 
 OPTIONS
   -f, --force
   -h, --help       show CLI help
   -n, --name=name  name to print
-
-EXAMPLE
-  $ ems hello
-  hello world from ./src/hello.ts!
 ```
 
-_See code: [src/commands/hello.ts](https://github.com/NeOMakinG/ems-cli/blob/v0.0.0/src/commands/hello.ts)_
+_See code: [src/commands/generate.ts](https://github.com/NeOMakinG/ems-cli/blob/v0.0.0/src/commands/generate.ts)_
 
 ## `ems help [COMMAND]`
 
@@ -67,4 +64,15 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.1/src/commands/help.ts)_
+
+## `ems init [NAME]`
+
+describe the command here
+
+```
+USAGE
+  $ ems init [NAME]
+```
+
+_See code: [src/commands/init.ts](https://github.com/NeOMakinG/ems-cli/blob/v0.0.0/src/commands/init.ts)_
 <!-- commandsstop -->
