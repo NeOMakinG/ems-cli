@@ -43,6 +43,7 @@ export default class Init extends Command {
       this.log(`./${folder}/.git removed.`)
 
       const appDatas = fs.readFileSync(`${this.path}/${folder}/app.json`)
+      // @ts-ignore
       const appInfos = JSON.parse(appDatas)
       appInfos.expo.name = name
       appInfos.expo.slug = folder

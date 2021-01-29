@@ -2,8 +2,9 @@ import * as React from 'react';
 import { StyleSheet, TouchableOpacity } from 'react-native';
 import { Layout, StyleService, useStyleSheet } from '@ui-kitten/components';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import PageContent from '../../components/PageContent';
 
-import styles from '../../../globals/style';
+import styles from '../../globals/style';
 import i18n from 'i18n-js';
 
 export default function Basic({navigation}) {

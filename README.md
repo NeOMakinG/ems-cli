@@ -19,7 +19,7 @@ $ npm install -g ems-cli
 $ ems COMMAND
 running command...
 $ ems (-v|--version|version)
-ems-cli/0.0.0 darwin-x64 node-v12.20.0
+ems-cli/0.0.10 darwin-x64 node-v12.20.0
 $ ems --help [COMMAND]
 USAGE
   $ ems COMMAND
@@ -28,25 +28,20 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`ems generate [FILE]`](#ems-generate-file)
+* [`ems generate [TYPE] [NAME]`](#ems-generate-type-name)
 * [`ems help [COMMAND]`](#ems-help-command)
 * [`ems init [NAME]`](#ems-init-name)
 
-## `ems generate [FILE]`
+## `ems generate [TYPE] [NAME]`
 
-describe the command here
+Generate something
 
 ```
 USAGE
-  $ ems generate [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
+  $ ems generate [TYPE] [NAME]
 ```
 
-_See code: [src/commands/generate.ts](https://github.com/NeOMakinG/ems-cli/blob/v0.0.0/src/commands/generate.ts)_
+_See code: [src/commands/generate.ts](https://github.com/NeOMakinG/ems-cli/blob/v0.0.10/src/commands/generate.ts)_
 
 ## `ems help [COMMAND]`
 
@@ -74,5 +69,5 @@ USAGE
   $ ems init [NAME]
 ```
 
-_See code: [src/commands/init.ts](https://github.com/NeOMakinG/ems-cli/blob/v0.0.0/src/commands/init.ts)_
+_See code: [src/commands/init.ts](https://github.com/NeOMakinG/ems-cli/blob/v0.0.10/src/commands/init.ts)_
 <!-- commandsstop -->
